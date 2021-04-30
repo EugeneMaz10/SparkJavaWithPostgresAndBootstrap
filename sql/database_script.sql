@@ -1,7 +1,7 @@
 
-createdb spark_hbs_jdbi;
+createdb spark3;
 
-psql spark_hbs_jdbi;
+psql spark3;
 
 CREATE TABLE IF NOT EXISTS users (
   id SERIAL PRIMARY KEY NOT NULL,
@@ -10,4 +10,4 @@ CREATE TABLE IF NOT EXISTS users (
   email TEXT
 );
 
-insert into users (first_name, last_name, email) values ('java', 'mentor', 'mentor@mentors.za');
+insert into users (first_name, last_name, email) values ('spark', 'mentor3', 'eugenengaira863@gmail.com');
